@@ -2,9 +2,21 @@
 <html lang="en">
     <head>
         <title>Hello World</title>
+        <style>
+            table {
+                border: 10%;
+            }
+        </style>
     </head>
     <body>
-        <table border="1"> 
+        <h1>Titulo Principal só usado uma vez</h1>
+        <h2>Subtitulo 2</h2>
+        <h3>Subtitulo 3</h3>
+        <h4>Subtitulo 4</h4>
+        <h5>Subtitulo 5</h5>
+        <h6>Subtitulo 6</h6>
+
+        <table border="1" style="border:1px"> 
             <tr> <!-- Linhas -->
                 <th>Nome</th> <!-- Colunas de cima, headers -->
                 <th>Idade</th>
@@ -24,6 +36,23 @@
                 <td> Joaquim</td>
                 <td> 26</td>
                 <td> Masculino</td>
+            </tr>
+            <tr>
+                <td> <img src="img/urso.png" alt="imagem urso" style="height: 100px; width: 100px;"> </td>
+                <td> 10</td>
+                <td>
+                    <table border="1" style="border:1px">
+                        <tr>
+                            <td> Nome: Urso</td>
+                        </tr>
+                        <tr>
+                            <td> Idade: 10</td>
+                        </tr>
+                        <tr>
+                            <td> Sexo: Masculino</td>
+                        </tr>
+                    </table>
+                </td>
             </tr>
         </table>
     </body>
