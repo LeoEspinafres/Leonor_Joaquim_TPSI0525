@@ -1,13 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 body {
-	padding-top: 40px;
-    background-color: #d8c8cc;
+	background-color: #d8c8cc;
+	border: 2px solid red;
+	margin-top: 50px;
+	height: 80%;
 }
 
 .headertext {
-	font-family: roboto;
+	font-family: 'Courier New', Courier, monospace;
 	font-size: 25px;
 	font-weight: 200;
 }
+
 .headertext p {
 	padding: 10px;
 	text-align: justify;
@@ -15,9 +22,8 @@ body {
 	margin: 5px;
 }
 
-.navbar
-{
-	background-color: rgba(30,30,30);
+.navbar {
+	background-color: rgba(30, 30, 30);
 	color: white;
 	font-weight: bolder;
 	display: flex;
@@ -25,9 +31,9 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
-  	top: 0;
-  	left: 0; 
-  	right: 0;
+	top: 0;
+	left: 0;
+	right: 0;
 	height: 6%;
 }
 
@@ -48,8 +54,15 @@ body {
 	width: 40%;
 }
 
-a
-{
+a {
 	color: white;
 	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 96px;
+	display: flex;
+	justify-content: center;
+	width:100%;
 }
