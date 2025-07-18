@@ -5,7 +5,6 @@
 
 body {
 	background-color: #d8c8cc;
-	border: 2px solid red;
 	margin-top: 50px;
 	height: 80%;
 }
@@ -71,25 +70,25 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	margin-bottom: 60px;
-	padding: 20px;
+	margin-bottom: 30px;
+	padding: 10px;
 	border-radius: 12px;
 }
 
 .filme .info {
 	min-width: 20%;
-	min-height: 20%;
 	margin-right: 5%;
 	margin-left: 5%;
 	text-align: center;
-	font-size: 3em;
+	font-size: 1.2em;
 }
+
 .filme:nth-child(even) .info {
-  margin-right: 30%;
+	margin-right: 5%;
 }
 
 .filme:nth-child(odd) .info {
-  margin-left: 30%;
+	margin-left: 5%;
 }
 
 .filme:nth-child(even) {
@@ -97,18 +96,19 @@ h1 {
 }
 
 .filme img {
-	width: 400px;
-	height: 400px;
+	width: 250px;
+	height: 350px;
 	border-radius: 8px;
+	object-fit:scale-down;
 }
 
 .info h2 {
 	margin-bottom: 10px;
-	font-size: 50px;
-	color: #000000;
+	font-size: 28px;
+	color: #000;
 }
 
 .info p {
 	margin: 6px 0;
-	color: #000000;
+	color: #000;
 }
