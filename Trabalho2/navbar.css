@@ -22,7 +22,6 @@ body {
 .headertext p {
 	padding: 10px;
 	text-align: justify;
-	backdrop-filter: blur(30px);
 	margin: 5px;
 }
 
@@ -38,7 +37,7 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 6%;
+	height: 10%;
 }
 
 .navbar-left {
@@ -50,6 +49,7 @@ body {
 }
 
 .navbar-right {
+	font-size: 1em;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -79,4 +79,13 @@ body {
 
 .laranja {
 	background-color: #FF8000;
+}
+
+h1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 96px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 5%;
 }
