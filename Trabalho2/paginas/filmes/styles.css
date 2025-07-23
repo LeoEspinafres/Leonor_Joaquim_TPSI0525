@@ -47,13 +47,16 @@ footer {
 	background-color: rgba(30, 30, 30);
 	display: block;
 }
-
+ @media (max-width:500px) {
+	table {
+		width: 40%;
+		margin-left: 5%;
+	}
+ }
  @media (max-width:1200px) {
 	table {
 		width: 80%;
 		margin-left: 5%;
 	}
-	h1 {
-		margin-left: 5%;
-	}
  }
+ 
