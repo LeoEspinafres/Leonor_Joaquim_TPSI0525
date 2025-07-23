@@ -1,7 +1,3 @@
-/*
-    Não posso levar mais na cabeça por ter código repetido 
-*/
-
 * {
 	margin: 0;
 	padding: 0;
@@ -9,20 +5,7 @@
 
 body {
 	background-color: #d8c8cc;
-	margin-top: 50px;
-	height: 80%;
-}
-
-.headertext {
-	font-family: 'Courier New', Courier, monospace;
-	font-size: 25px;
-	font-weight: 200;
-}
-
-.headertext p {
-	padding: 10px;
-	text-align: justify;
-	margin: 5px;
+	margin-top: 70px;
 }
 
 .navbar {
@@ -87,5 +70,4 @@ h1 {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	margin-top: 5%;
 }

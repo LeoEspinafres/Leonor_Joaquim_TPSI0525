@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+   background-color: rgba(30, 30, 30);
 }
 .img-surpresa{
 	display: flex;
