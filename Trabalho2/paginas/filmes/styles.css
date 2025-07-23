@@ -51,5 +51,9 @@ footer {
  @media (max-width:1200px) {
 	table {
 		width: 80%;
+		margin-left: 5%;
+	}
+	h1 {
+		margin-left: 5%;
 	}
  }
