@@ -9,6 +9,11 @@ body {
 	overflow-x: hidden;  /* tinha uma scrollbar em baixo */
 }
 
+.rolo {
+	width: 100%;
+	height: auto;
+}
+
 .navbar {
 	background-color: rgba(30, 30, 30);
 	color: white;
