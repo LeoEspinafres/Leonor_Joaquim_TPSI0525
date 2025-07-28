@@ -44,6 +44,14 @@ body {
 .navbar a {
 	color: white;
 	text-decoration: none;
+	padding:5px;
+	border-radius: 20%;
+}
+
+.navbar a:hover {
+	color: rgb(198, 50, 50);
+	text-decoration: none;
+	background-color: #d8c8cc;
 }
 
 .dot {
