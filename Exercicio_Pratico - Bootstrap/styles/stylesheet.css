@@ -1,0 +1,15 @@
+* {
+    scrollbar-width: none;
+}
+
+.card-container:hover .projeto-card {
+  filter: blur(3px);
+  transition: filter 0.3s ease;
+}
+
+.card-container:hover .projeto-card:hover {
+  filter: none;
+  transform: translateY(-5px) scale(1.30);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  z-index: 1;
+}
