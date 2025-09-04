@@ -1,17 +1,24 @@
-* {
-    scrollbar-width: none;
+
+body { 
+  background: linear-gradient(135deg, #e0e3e6 0%, #ced6de 100%); 
+}
+
+.projeto-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+    cursor: pointer;
+}
+
+.projeto-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
 }
 
 .card-container:hover .projeto-card {
-  filter: blur(3px);
-  transition: filter 0.3s ease;
+    filter: blur(2px);
 }
-
 .card-container:hover .projeto-card:hover {
-  filter: none;
-  transform: translateY(-5px) scale(1.30);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-  z-index: 1;
+    filter: none;
+    z-index: 1;
 }
 
 ul {
@@ -20,4 +27,60 @@ ul {
 
 footer, a {
   text-decoration: none;
+}
+
+.navbar {
+    padding: 1.5rem 1rem;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.4rem;
+    margin-left: 3%;
+}
+
+.navbar .nav-link {
+    font-size: 1rem;
+}
+
+
+.navbar-toggler {
+    font-size: 1.25rem;
+}
+
+img {
+    background-color: transparent;
+}
+
+ul li a {
+    transition: all 0.3s ease;
+    position: relative;
+    color: #6c757d;
+}
+
+ul li a:hover {
+    color: #0d6efd; 
+    transform: translateY(-3px);
+}
+
+ul li a img {
+    transition: transform 0.3s ease;
+}
+
+ul li a:hover img {
+    transform: scale(1.2);
+}
+
+ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #0d6efd;
+    transition: width 0.3s ease;
+}
+
+ul li a:hover::after {
+    width: 100%;
 }
