@@ -41,40 +41,45 @@
     </header>
     <!-- Sobre Mim é só h2/h3 com texto-->
     <div>
-        <h2 class="display-5 text-center">Sobre Mim</h2>
+        <h2 class="display-5 text-center" id="about">Sobre Mim</h2>
         <p>Olá</p>
     </div>
 
     <!-- Os meus Projetos - 3 fotos lado a lado com os meus projetos. tem de ficarem notopo um do outro quando o site encolhe-->
+    <h2 id="project">Os Meus Projetos</h2>
+    
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mx-5 card-container">
-        <div class="card projeto-card">
+        <div class="card projeto-card col d-flex justify-content-center">
             <img src="../img/Projeto2.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">A project I did by myself</p>
                 <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                <a href="https://github.com/LeoEspinafres/Leonor_Joaquim_TPSI0525" class="btn btn-primary">Link Github</a>
+                <a href="https://github.com/LeoEspinafres/Leonor_Joaquim_TPSI0525" class="btn btn-primary">Link
+                    Github</a>
             </div>
         </div>
-        <div class="card projeto-card">
+        <div class="card projeto-card col d-flex justify-content-center">
             <img src="../img/myownproject.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">A project I did by myself</p>
                 <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                <a href="https://github.com/LeoEspinafres/That-Time-I-Did-A-Website" class="btn btn-primary">Link Github</a>
+                <a href="https://github.com/LeoEspinafres/That-Time-I-Did-A-Website" class="btn btn-primary">Link
+                    Github</a>
             </div>
         </div>
-        <div class="card projeto-card" >
+        <div class="card projeto-card col d-flex justify-content-center">
             <img src="../img/projetonovo.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">A project I did by myself</p>
                 <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                <a href="https://github.com/LeoEspinafres/That-Time-I-Did-A-Website" class="btn btn-primary">Link Github</a>
+                <a href="https://github.com/LeoEspinafres/That-Time-I-Did-A-Website" class="btn btn-primary">Link
+                    Github</a>
             </div>
         </div>
     </div>
     <br>
     <!-- Contactos -->
-    <h2 class="text-center display-5">Contactos</h2>
+    <h2 class="text-center display-5" id="contact">Contactos</h2>
     <form action="submit" method="POST" class="text-center">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br><br>
@@ -84,17 +89,29 @@
 
         <button type="submit">Enviar</button>
     </form>
-    <ul>
-        <li>
-            <a href="https://github.com/LeoEspinafres">Github link</a>
-        </li>
-        <li>
-            <a href=""></a>
-        </li>
-        <li>
-            <a href=""></a>
-        </li>
-    </ul>
+    <br>
+    <div class="d-flex justify-content-evenly">
+        <ul class="list-unstyled d-flex flex-column flex-sm-row gap-4">
+            <li>
+                <img src="../img/github.png" alt="" height="35px">
+                <a href="https://github.com/LeoEspinafres"
+                    class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Follow
+                    me on Github</a>
+            </li>
+            <li>
+                <img src="../img/instagram.jpg" alt="" height="35px">
+                <a href="https://www.instagram.com/"
+                    class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Follow
+                    me on Instagram</a>
+            </li>
+            <li>
+                <img src="../img/codepen.svg" alt="" height="35px">
+                <a href="https://codepen.io/"
+                    class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Follow
+                    me on Code Pen</a>
+            </li>
+        </ul>
+    </div>
     <!-- FOOTER -->
     <footer class="bg-dark text-light py-4 mt-5">
         <div class="container text-center">
